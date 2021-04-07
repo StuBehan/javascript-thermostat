@@ -10,4 +10,10 @@ class Thermostat {
   up() {
     this.temperature += 1;
   }
+
+  down() {
+    if (this.temperature >= 11) {
+      this.temperature -= 1;
+    } 
+  }
 }
